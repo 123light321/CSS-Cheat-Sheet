@@ -1,0 +1,79 @@
+
+/* [HINTS]
+margin-top: 5px;
+margin-right: 10px;
+margin-bottom: 5px;
+margin-left: 10px;
+OR
+margin: 5px 10px 5px 10px;
+OR if same top,bottom and right,left: 
+margin: 5px 10px;
+This also works for padding
+*/
+
+/*Reset to remove all padding.margin on everything*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+h1{
+	color:green;
+}*/
+
+body{
+	background-color:white;
+	color:black;
+	
+	font-size:16px;
+	font-family: Arial;
+	font-weight: normal; /*bold or value of boldness*/
+
+	/*font: bold 32px Arial; is the shortcut for above
+	font: font-weight font-size font-family*/
+	font: bold 16px Arial;
+
+	line-height:1.6em;
+}
+
+#container{
+	width: 80%; /*by putting percentage we make the website more responsive instead of px*/
+	margin:auto; /*puts in center because equal margin on sides*/
+	border: 5px blue solid; 
+	padding: 5% 1%;
+}
+
+.box1{
+	background-color:dark-grey;
+	border: 5px red solid; /*shorthand for all side borders*/
+	border-top-style: dotted;
+	border-bottom-style: dotted; 
+	padding: 20px;
+	margin-bottom: 1%;
+}
+
+.box1 h1{
+	font-family: tahoma;
+	font-style: italic;
+	color: green;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+	text-align: center;
+}
+
+.box2{
+	background-color:#f4f4f4;
+	border: 5px red solid; /*shorthand for all side borders*/
+	border-top-style: dotted;
+	border-bottom-style: dotted; 
+	padding: 20px;
+	margin-bottom: 1%;
+}
+.box2 h1{
+	color: orange;
+	text-decoration: underline;
+	text-decoration-color: green;
+}
